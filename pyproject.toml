@@ -1,0 +1,11 @@
+[project]
+name = "flappy-bird-dqn"
+version = "0.1.0"
+description = "DQN agent that learns to play Flappy Bird"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "flappy-bird-gymnasium>=0.4.0",
+    "numpy",
+    "torch",
+]
